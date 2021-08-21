@@ -37,10 +37,11 @@ In this project, you’ll have access to approximately 50 datasets. Each one con
 
 - Load Tables with Data
 
-![Image2](images/2LoadedTables1.png)
+![Image3](images/3CountTableRows1.png)
 
 
 ## Determination of Bias in Vine Reviews
+
 - Is there a difference in paid Vine reviews?
 
 
