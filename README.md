@@ -40,9 +40,9 @@ Amazon has provided access to approximately 50 different datasets, each one cont
 
 ## Determination of Bias in Vine Reviews
 
-- For the second part of this task we are challenged to validate if there is bias associated with 
+- For the second part of this task we are challenged to validate if there is bias associated with the reviews in our dataset. Below is the summary data produced by our analysis.
 
-![Image4](images/3VineSummary1.png)
+![Image4](images/4VineSummary1.png)
 
 ------------------------------------------------------------------------------------------------------------
 
