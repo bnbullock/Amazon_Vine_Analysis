@@ -9,7 +9,7 @@ Amazon has provided access to approximately 50 different datasets, each one cont
 - Deliverables:
 
 1. Peform an ETL function using Amazon AWS, Google Colab Notebooks and pgAdmin.
-2. Calculate matrics to determine if a paid Vine review make a difference in the percentage of 5-star reviews.
+2. Calculate metrics to determine if a paid Vine review make a difference in the percentage of 5-star reviews.
 
 ------------------------------------------------------------------------------------------------------------
 
@@ -28,15 +28,15 @@ Amazon has provided access to approximately 50 different datasets, each one cont
 
 ### Perform ETL on Amazon Products Reviews
 
-- The Digital Software dataset was loaded into a singular dataframe directly from Amazon. From this master dataframe, four additional distinct dataframes were generated and loaded into 4 different SQL tables. Each table was created using a schema that matched the corresponding dataframe exactly as extracted using Google Collab notebook and PySpark.
+- The Digital Software dataset was loaded into a singular dataframe directly from Amazon. From this master dataframe, four additional distinct dataframes were prepared for loading into 4 different SQL tables. Each table was created using a schema that matched the corresponding dataframe exactly as extracted using Google Collab notebook and PySpark.
 
 ![Image1](images/1CreateTables_1.png)
 
-- Likewise to the above, each dataframe was transformed into the correct format with duplicated data removed, dates re-formatted and values aggregated as necessary. Below we can see an example of the different fields associated with the vine_table and the related data.
+- Likewise to the above, each dataframe was transformed into the correct format with duplicated data removed, dates reformatted and values aggregated as necessary. Below we can see an example of the different fields associated with the vine_table and the first few rows of data.
 
 ![Image2](images/2LoadedTables1.png)
 
-- Finally each transformed dataframe was loaded into the corresponding postgreSQL database table. We can see the results below once the vine_table data containing 102084 records of reviews was successfully loaded.
+- Finally, each transformed dataframe was loaded into the corresponding postgreSQL database table. We can see the results below once the vine_table data containing 102084 records of reviews was successfully loaded.
 
 ![Image3](images/3CountTableRows1.png)
 
@@ -50,9 +50,9 @@ Amazon has provided access to approximately 50 different datasets, each one cont
 
 ## Overall Summary
 
-- The purpose of analysing vine reviewes is two-fold. We want to ensure that if our client is paying for the vine service and providing products to vine members for review, the actions are being carried out as expected. This process allows us to perform an audit on the resources being provided as it relates to the outcome. Secondly, we want to understand how all reviewers are rating the products produced by our client.
+- The purpose of analysing vine reviewes is two-fold. We want to ensure that if our client is paying for the vine service and providing products to vine members for review, the actions are being carried out as expected. This process allows us to perform an audit on the resources being provided as it relates to the outcome. Secondly, we want to understand how all reviewers are rating the different digital products as it related to the business conducted by our client.
 
-- From the analysis provided the following conclusions can be stated:
+- From the summarized analysis, the following conclusions can be stated:
   - There were 2120 non-Vine and 0 Vine member reviews
   - There were 314 non-Vine and 0 Vine member 5-star reviews
   - There were 15% non_Vine and 0% Vine member reviews that were 5-star
