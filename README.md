@@ -59,8 +59,6 @@ Amazon has provided access to approximately 50 different datasets, each one cont
 
 - In Summary, since there are no reviews recorded for Vine members we cannot definitively state if there is a bias. We do not have any data to support a statement in either direction in regards to Vine members. However, for non-Vine members we can see that 15% of all reviews provided a 5-star positively biased product review based on the conclusions.
 
-- Since we only have non-Vine reviews we can further expand on the reviews we do have by looking at all the ratings by star value for a better understanding. Below we can see a summary dataframe outlining this information which shows a breakdown by star ranking. The results below point to a more negative bias as we have large amount of non-Vine reviews pointing to 1-star rating.
+- Since we only have non-Vine reviews, we can further expand on the results we do have by looking at all the ratings by star value for a better understanding. Below we can see a summary dataframe outlining this information which shows a breakdown by star ranking. The results below point to a more negative bias as we have large amount of non-Vine reviews pointing to 1-star rating.
 
 ![Image5](images/5Additional1.png)
-
-------------------------------------------------------------------------------------------------------------
