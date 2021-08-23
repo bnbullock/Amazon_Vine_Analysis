@@ -37,10 +37,9 @@ Amazon has provided access to approximately 50 different datasets, each one cont
 
 ![Image3](images/3CountTableRows1.png)
 
-
 ## Determination of Bias in Vine Reviews
 
-- For the second part of this task we are challenged to validate if there is bias associated with the reviews in our dataset. Below is the summary data produced by our analysis.
+- For the second part of this task we are challenged to validate if there is bias associated with the reviews in our dataset. We need to understand if the results below are based on predetermined ideas or have been influenced in a certain direction to produced these results.
 
 ![Image4](images/4VineSummary1.png)
 
@@ -48,17 +47,15 @@ Amazon has provided access to approximately 50 different datasets, each one cont
 
 ## Overall Summary
 
-For this part of the Challenge, you’ll write a report that summarizes the analysis you performed in Deliverable 2.
+- The purpose of analysing vine reviewes is two-fold. We want to ensure that if our client is paying for the vine service and providing products to vine members for review, the actions are being carried out as expected. This process allows us to perform an audit on the resources being provided as it relates to the outcome. Secondly, we want to understand how all reviewers are rating the products produced by our client.
 
-The report should contain the following:
+- From the analysis provided the following conclusions can be stated:
+    - There were 2120 non-Vine and 0 Vine member reviews
+    - There were 314 non-Vine and 0 Vine member 5-star reviews
+    - There were 15% non_Vine and 0% Vine member reviews that were 5-star
 
-Overview of the analysis: Explain the purpose of this analysis.
+- In Summary, since there are no reviews recorded for Vine members we cannot definitively state if there is a bias. We do not have any data to support a statement in either direction. However, for non-Vine members we can see that 15% of all reviews provided a 5-star positively biased product review based on the data. Since we only have non-Vine reviews we can further expand on the reviews we do have by looking at all the ratings  by star number for a better understanding of the reviews. Below we can see a summary dataframe outline this information that shows a breakdown of the non-Vine reviews.
 
-Results: Using bulleted lists and images of DataFrames as support, address the following questions:
+![Image5](images/5Additional1.png)
 
-How many Vine reviews and non-Vine reviews were there?
-How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
-What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
-Summary: In your summary, state if there is any positivity bias for reviews in the Vine program. Use 
-the results of your analysis to support your statement. Then, provide one additional analysis that you 
-could do with the dataset to support your statement.
+------------------------------------------------------------------------------------------------------------
