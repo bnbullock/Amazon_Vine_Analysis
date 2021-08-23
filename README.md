@@ -18,7 +18,7 @@ Amazon has provided access to approximately 50 different datasets, each one cont
 - Software: Visual Studio Code 1.56.2, Python 3.7.10, Google Collab Notebook
 - Libraries: PySpark, OJS v11, PySpark v3.0.3
 - Browser : Google Chrome v91.0.4472.124
-- Data Source: AWS Cloude DB, PostgreSQl v12.7
+- Data Source: AWS Cloud RDS DB, PostgreSQl v12.7
 - Data Client: pgAdmin v5.5
 - Data : <https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Digital_Software_v1_00.tsv.gz>
 
@@ -55,7 +55,7 @@ Amazon has provided access to approximately 50 different datasets, each one cont
 - From the summarized analysis, the following conclusions can be stated:
   - There were 2120 non-Vine and 0 Vine member reviews
   - There were 314 non-Vine and 0 Vine member 5-star reviews
-  - There were 15% non_Vine and 0% Vine member reviews that were 5-star
+  - There were 15% non-Vine and 0% Vine member reviews that were 5-star
 
 - In Summary, since there are no reviews recorded for Vine members we cannot definitively state if there is a bias. We do not have any data to support a statement in either direction in regards to Vine members. However, for non-Vine members we can see that 15% of all reviews provided a 5-star positively biased product review based on the conclusions.
 
